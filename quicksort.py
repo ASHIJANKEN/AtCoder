@@ -11,7 +11,7 @@ def quicksort(x):
   return small + [x[0]] + big
 
 
-x = [i for i in range(1000)]
+x = [i for i in range(100)]
 start = time.time()
 print(quicksort(x))
 print ("elapsed_time:{0}".format(time.time() - start) + "[sec]")
